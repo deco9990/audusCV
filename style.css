@@ -1,0 +1,87 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(26, 218, 157);
+    font-family: sans-serif;
+    
+
+}
+.profile-img
+{
+   width: 40%;
+   float: right;
+}
+.profile-img img
+{
+    width: 100%;
+    height: 60%;
+}
+.about
+{
+   margin-left: 30px;
+   text-align: center;
+}
+.profile-info
+{
+    width: 60%;
+    height: 20vh;
+    float: left;
+    padding: 0 30px;
+}
+.profile-info h1
+{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.eljoe
+{
+    margin-left: 30px;
+    color: blue
+}
+.eljoe2
+{
+    margin-left: 30px;
+    color:blue;
+}
+.name{
+    text-align: center
+}
+.contact span
+{
+color: blue
+}
+.contact-form{
+    position: top;
+    top: 20%;
+    left:0;
+    width:350;
+    height: auto;
+    padding: 40px;
+    background: #59a5b8;
+    box-shadow: 0 20px 50px rgba(0,0,0,.5);
+}
+.contact-form input
+{
+    width:100%;
+    height: 36px;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+.contact-form textarea
+{
+    height: 60px;
+    resize: none;
+}
+.contact-form input[type="send"]
+{
+    background: #00bcd4;
+    color:#fff;
+    cursor: pointer;
+    border:none;
+    font-style: 18px;
+}
